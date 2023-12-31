@@ -133,8 +133,10 @@ app.use("/getuser",getFrontUser)
 //   console.log(req.body)
 //   console.log(req.cookies)
 //  })
-
-// app.listen(PORT);
+app.get("/", (req,res) => {
+  res.send("loded");
+});
+ app.listen(PORT);
 
 // const http_server = http.createServer(app);
 // const io = new Server(http_server,{
