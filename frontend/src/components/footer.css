@@ -1,0 +1,49 @@
+
+.footer_div{
+    background-color: #212529;
+    min-height: 300px;
+    color: antiquewhite;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 10% 80% 10%;
+    margin-top: 50px;
+  }
+  
+  .footer_left_margin , .footer_right_margin{
+    min-width: 10%;
+  }
+  .pages_element{
+    cursor: pointer;
+    
+  }
+  .pages_element:hover{
+    text-decoration: underline;
+   
+  }
+  .socileIcons > img {
+    width: 50px;
+    height:  50px;
+  }
+  .footer_p{
+    
+  }
+  .icons_div{
+
+  }
+  .icons_div > a > img {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+  }
+
+  .copy_right{
+    background-color: #212529;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .copy_right > p {
+    margin-bottom:  0 !important;
+  }

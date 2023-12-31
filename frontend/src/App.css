@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carusel {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  /* margin-top: 100px; */
+  /* background-color: red; */
+}
+.carusel > .caro {
+  width: 100%;
+  height: 100%;
+}
+.img {
+  width: 100%;
+  height: 600px;
+}
+.carousel-caption {
+  top: 60%;
+}
+.post_page {
+}
+.posts_div {
+  width: 80%;
+  margin: auto;
+}
+.card_img {
+  width: 100%;
+  height: 200px;
+}
+.post_col > h1 {
+  text-transform: capitalize;
+  border-bottom: 2px solid #999;
+}
+.img_div {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+}
+.img_div > img {
+  width: 100%;
+  height: 100%;
+}
+.date_p {
+  text-align: right;
+}
+.profile_pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.post_col {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comments {
+  background: whitesmoke;
+}
+
+.comment_box {
+  background: #fcfcfc;
+  padding: 10px;
+}
+.comment {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.comment_profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+}
+.form-control {
+  resize: none;
+}
+.user_name {
+  display: flex;
+}
+.user_name > h6 {
+  margin-right: 10px;
+}
+.comment_p {
+  margin-left: 10px;
+  margin-top: -20px;
+}
+.reply_button {
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+/* log_reg_teb */
+.reg_h1 {
+  text-align: center;
+  margin-top: 100px;
+  border-bottom: 2px solid;
+  width: 80%;
+  margin-left: 10%;
+}
+.log_reg_teb {
+  width: 80%;
+  margin-left: 10%;
+  min-height: 300px;
+}
+
+.login_user {
+  min-height: 100vh;
+}
+.login_user > form {
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  margin-top: 100px;
+}
+.login_detail {
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+.logout_div {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: #282c34;
+  width: 100%;
+  height: 100px;
+}
+.hide_logout{
+  display: none;
+}
+.show_logout{
+  display: block;
+}
