@@ -172,6 +172,9 @@ app.use("/getuser",getFrontUser)
 // http_server.listen(PORT,() => {
 //   console.log(`express server runing on port ${PORT}`)
 // })
+app.get("/", (req,res) => {
+  res.send("loded");
+});
 app.listen(PORT,() => {
   console.log(`express server runing on port ${PORT}`)
 })
