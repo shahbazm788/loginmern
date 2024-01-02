@@ -20,6 +20,11 @@ const PORT = process.env.PORT;
 const getFrontUser = require("./src/routs/getfrontuser.js")
 
 const addUser = require("./db/modules/addusermodule.js");
+
+app.use(express.json());
+
+
+
 app.get("/", (req, res) => {
   res.send("Express on Vercel");
 });
