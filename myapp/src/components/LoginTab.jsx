@@ -29,7 +29,7 @@ const nevigate = useNavigate();
 const  sendData = async (e) => {
     e.preventDefault();
   try {
-      fetch("http://localhost:5000/login", {
+      fetch("https://loginmern.vercel.app/", {
       method:"POST",
       headers:{
         'Content-type':'application/json; charset=UTF-8'
