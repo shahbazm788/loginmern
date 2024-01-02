@@ -18,7 +18,7 @@ const userdata = require('./routs/usersdata');
 const userupdate = require('./routs/updateuser');
 // const {Server} = require('socket.io');
 const http = require("http");
-const PORT = process.env.PORT;         
+// const PORT = process.env.PORT;         
 const getFrontUser = require("./routs/getfrontuser.js")
 
 const addUser = require("../db/modules/addusermodule.js");
@@ -133,9 +133,9 @@ app.use("/getuser",getFrontUser)
 //   console.log(req.body)
 //   console.log(req.cookies)
 //  })
-app.get("/", (req,res) => {
-  res.send("loded");
-});
+// app.get("/", (req,res) => {
+//   res.send("loded");
+// });
  // app.listen(PORT);
 
 // const http_server = http.createServer(app);
@@ -177,8 +177,8 @@ app.get("/", (req,res) => {
 app.get("/", (req,res) => {
   res.send("loded");
 });
-app.listen(PORT,() => {
-  console.log(`express server runing on port ${PORT}`)
+app.listen(5000,() => {
+  console.log(`express server runing on port 5000`)
 })
 
 // app.post('/upload', upload.single('file'), (req, res) => {
