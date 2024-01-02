@@ -16,7 +16,7 @@ const userdata = require('./src/routs/usersdata');
 const userupdate = require('./src/routs/updateuser');
 const {Server} = require('socket.io');
 const http = require("http");
-// const PORT = process.env.PORT;         
+const PORT = process.env.PORT;         
 const getFrontUser = require("./src/routs/getfrontuser.js")
 
 const addUser = require("./db/modules/addusermodule.js");
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
   res.send("Express on Vercel");
 });
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
   console.log("Running on port 5000.");
 });
 
