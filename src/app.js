@@ -30,7 +30,7 @@ app.use(express.json());
 // app.use(cors());
 app.use(cors({
   credentials: true,
-      origin: ["https://loginmern-admin.vercel.app/login","https://blog-woad-chi-43.vercel.app/"],
+      origin: ["https://loginmern-admin.vercel.app","https://blog-woad-chi-43.vercel.app/"],
       methods: ["GET", "POST", "PUT", "DELETE"],
      
     })
