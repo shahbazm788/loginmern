@@ -30,7 +30,7 @@ app.use(express.json());
 // app.use(cors());
 app.use(cors({
   credentials: true,
-      origin: ["http://localhost:5173","http://localhost:3000"],
+      origin: ["https://loginmern-admin.vercel.app/login","https://blog-woad-chi-43.vercel.app/"],
       methods: ["GET", "POST", "PUT", "DELETE"],
      
     })
