@@ -1,6 +1,6 @@
 const express = require("express");
 // require('dotenv').config();
-require("./db/conn");
+// require("./db/conn");
 const app = express();
 // const user = require("./src/routs/user");
 // const router = express.Router();
