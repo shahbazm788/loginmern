@@ -136,7 +136,7 @@ app.use("/getuser",getFrontUser)
 app.get("/", (req,res) => {
   res.send("loded");
 });
- app.listen(PORT);
+ // app.listen(PORT);
 
 // const http_server = http.createServer(app);
 // const io = new Server(http_server,{
