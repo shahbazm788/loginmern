@@ -29,7 +29,7 @@ const nevigate = useNavigate();
 const  sendData = async (e) => {
     e.preventDefault();
   try {
-      fetch("https://railway.app/project/97f5fa52-6de5-4156-ad17-29ab640a3569/service/768c1f8a-7099-48c3-827a-941f930e6264", {
+      fetch("https://glorious-dog-sweatpants.cyclic.app/", {
       method:"POST",
       headers:{
         'Content-type':'application/json; charset=UTF-8'
