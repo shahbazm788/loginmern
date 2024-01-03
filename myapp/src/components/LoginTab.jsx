@@ -40,7 +40,7 @@ const  sendData = async (e) => {
     }).then( res => res.json()).then(data => {
       if(data){
         nevigate("/",{state:{data:data}})
-       
+       console.log(data)
       }
       
     });
