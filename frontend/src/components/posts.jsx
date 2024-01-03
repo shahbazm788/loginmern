@@ -89,7 +89,7 @@ let navigate = useNavigate();
                          <Col md={4}>
                         <Card className='my-3' onClick={() => (handleClick(item))}> 
                          
-                          <Card.Img variant="top" src={`https://loginmern.vercel.app/img/${item.post_img}`} className='card_img'/>
+                          <Card.Img variant="top" src={`https://glorious-dog-sweatpants.cyclic.app/img/${item.post_img}`} className='card_img'/>
                           <Card.Header className="text-light bg-primary">{item.postHeading.slice(0,25) +"..."}</Card.Header>
                           <Card.Body>
                             <Card.Text dangerouslySetInnerHTML={{__html:item.post_body.length > 100 ? item.post_body.slice(0,100) : item.post_body }}>
