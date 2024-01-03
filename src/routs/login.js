@@ -9,7 +9,7 @@ const bcrypt = require('bcrypt');
 
 const login = async  (req,res,next) => {
     if(req.cookies.jwt){
-        rconsole.log(res.cookies.jwt);
+        console.log(res.cookies.jwt);
         res.send(true);
     }
 else{
