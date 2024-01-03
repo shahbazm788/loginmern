@@ -81,8 +81,7 @@ let navigate = useNavigate();
                */}
 
                  { posts.map( (item,i) => {
-                
-                    ;
+              
                   
                       return (
                      
