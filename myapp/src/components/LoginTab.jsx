@@ -7,7 +7,7 @@ import { useCookies } from "react-cookie";
 const LoginTab = () => {
 
 
-  const [cookies, removeCookie] = useCookies([]);
+  const [cookies,setCookies, removeCookie] = useCookies([]);
 const [getdata,setGetData] = useState({});
 const nevigate = useNavigate();
 
