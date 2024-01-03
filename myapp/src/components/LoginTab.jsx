@@ -29,7 +29,7 @@ const nevigate = useNavigate();
 const  sendData = async (e) => {
     e.preventDefault();
   try {
-      fetch("https://glorious-dog-sweatpants.cyclic.app", {
+      fetch("https://glorious-dog-sweatpants.cyclic.app/login", {
       method:"POST",
       headers:{
         'Content-type':'application/json; charset=UTF-8'
