@@ -23,7 +23,13 @@ const addUser = require("./db/modules/addusermodule.js");
 
 // app.use(express.json());
 
-
+app.use(cors({
+  credentials: true,
+      origin: ["https://loginmern-admin.vercel.app","https://blog-git-main-shahbazs-projects-37119fe0.vercel.app"],
+      methods: ["GET", "POST", "PUT", "DELETE"],
+     
+    })
+  );
 
 app.get("/", (req, res) => {
   res.send("Express on Vercel");
