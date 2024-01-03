@@ -23,7 +23,7 @@ let navigate = useNavigate();
 // }
        // axios.get('http://localhost:5000/posts').then(data => setposts(data.data)).catch(err => console.log(err));
   
-  axios.get('https://loginmern.vercel.app/posts').then(data => {
+  axios.get('https://glorious-dog-sweatpants.cyclic.app/posts').then(data => {
     setposts(data.data)
     console.log(data.data)
   }).catch(err => console.log(err))
