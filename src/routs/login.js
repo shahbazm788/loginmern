@@ -14,6 +14,7 @@ const login = async  (req,res,next) => {
                withCredentials: true,
                httpOnly: false,
              });
+        res.send({"jwt":req.cookies.jwt})
        
     }
 else{
