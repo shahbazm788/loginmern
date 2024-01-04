@@ -41,6 +41,7 @@ const  sendData = async (e) => {
       if(data){
         nevigate("/",{state:{data:data}})
        console.log(data)
+        console.log(cookies);
       }
       
     });
