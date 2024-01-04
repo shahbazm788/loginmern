@@ -11,6 +11,7 @@ const login = async  (req,res,next) => {
     if(req.cookies.jwt){
         // console.log(res.cookies.jwt);
         res.send(true);
+        console.log(req.cookies);
     }
 else{
 
