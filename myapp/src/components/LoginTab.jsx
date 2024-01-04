@@ -39,8 +39,8 @@ const  sendData = async (e) => {
     
     }).then( res => res.json()).then(data => {
       if(data){
-        // setCookies("jwt",data.cookies.jwt, { path: "/" });
-        // nevigate("/",{state:{data:data}})
+        setCookies("jwt",data.jwt, { path: "/" });
+        nevigate("/",{state:{data:data}})
        console.log(data)
         
       }
