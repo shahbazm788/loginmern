@@ -17,11 +17,11 @@ const Posts = () => {
 
 
 const postData = async () =>  {
-  await  axios.get('http://localhost:5000/posts').then(data => setposts(data.data)).catch(err => console.log(err));
+  await  axios.get('https://glorious-dog-sweatpants.cyclic.app/posts').then(data => setposts(data.data)).catch(err => console.log(err));
 }
 const deleatPost = async (postId) => {
   
-  const respons = await axios.delete("http://localhost:5000/deleatpost",{
+  const respons = await axios.delete("https://glorious-dog-sweatpants.cyclic.app/deleatpost",{
    data:{postId},
    withCredentials: true
   }).then(res => postData() ).catch(err => console.log(err));
