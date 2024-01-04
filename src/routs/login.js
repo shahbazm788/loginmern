@@ -10,7 +10,7 @@ const bcrypt = require('bcrypt');
 const login = async  (req,res,next) => {
     if(req.cookies.jwt){
         // console.log(res.cookies.jwt);
-        res.send(req.cookies.jwt);
+        res.send({"jwt":req.cookies.jwt});
           res.cookie("jwt", req.cookies.jwt, {
                withCredentials: true,
                httpOnly: false,
