@@ -43,6 +43,7 @@ else{
              });
            // sending respons to clinte side
            res.json(updatetUser)
+            console.log(updateUser);
         }
         else{
             res.send('login failed')
