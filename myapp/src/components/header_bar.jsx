@@ -155,7 +155,7 @@ const Header_bar = () => {
                 </div>
             <div className='all_notifications'>
                 <div className='notification' onClick={() => setN_p_class("hide")}>
-                    <div className='notifiction_image'><img src='../../img/shahbaz.jpg' /></div>
+                    <div className='notifiction_image'><img src='https://glorious-dog-sweatpants.cyclic.app/img/shahbaz.jpg' /></div>
                     <div className='text_div'>
                         <p className='heading_p'>Here a notifcation...</p>
                         <p className='text_p'>Some text coms here</p>
@@ -164,7 +164,7 @@ const Header_bar = () => {
                 </div>
 
                 <div className='notification' onClick={() => setN_p_class("hide")}>
-                    <div className='notifiction_image'><img src='../../img/tahir.jpg' /></div>
+                    <div className='notifiction_image'><img src='https://glorious-dog-sweatpants.cyclic.app/img/tahir.jpg' /></div>
                     <div className='text_div'>
                         <p className='heading_p'>Here a notifcation...</p>
                         <p className='text_p'>Some text coms here</p>
@@ -172,7 +172,7 @@ const Header_bar = () => {
                     <div className='notificstion_day'>today</div>
                 </div>
                 <div className='notification' onClick={() => setN_p_class("hide")}>
-                    <div className='notifiction_image'><img src='../../img/icons8-user-60.png' /></div>
+                    <div className='notifiction_image'><img src='https://glorious-dog-sweatpants.cyclic.app/img/icons8-user-60.png' /></div>
                     <div className='text_div'>
                         <p className='heading_p'>Here a notifcation...</p>
                         <p className='text_p'>Some text coms here</p>
@@ -180,7 +180,7 @@ const Header_bar = () => {
                     <div className='notificstion_day'>today</div>
                 </div>
                 <div className='notification' onClick={() => setN_p_class("hide")}>
-                    <div className='notifiction_image'><img src='../../img/shah.jpg' /></div>
+                    <div className='notifiction_image'><img src='https://glorious-dog-sweatpants.cyclic.app/img/shah.jpg' /></div>
                     <div className='text_div'>
                         <p className='heading_p'>Here a notifcation...</p>
                         <p className='text_p'>Some text coms here</p>
@@ -188,7 +188,7 @@ const Header_bar = () => {
                     <div className='notificstion_day'>today</div>
                 </div>
                 <div className='notification' onClick={() => setN_p_class("hide")}>
-                    <div className='notifiction_image'><img src='../../img/taimoor.jpg' /></div>
+                    <div className='notifiction_image'><img src='https://glorious-dog-sweatpants.cyclic.app/img/taimoor.jpg' /></div>
                     <div className='text_div'>
                         <p className='heading_p'>Here a notifcation...</p>
                         <p className='text_p'>Some text coms here</p>
