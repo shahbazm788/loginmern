@@ -48,7 +48,7 @@ useEffect(() => {
       <Col className='post_data' sm={8} dangerouslySetInnerHTML={{__html:item.post_body}}></Col>
       {/* <Col className='post_img' sm={2}><img src={"../../img/"+item.post_img} alt="" /></Col> */}
       {/* <Col className='post_img' sm={2}><img src={"../../../uploads/img/"+item.post_img} alt="" /></Col> */}
-      <Col className='post_img' sm={2}><img src={`http://localhost:5000/img/${item.post_img}`} alt="" /></Col>
+      <Col className='post_img' sm={2}><img src={`https://glorious-dog-sweatpants.cyclic.app/img/${item.post_img}`} alt="" /></Col>
 
 
       <Col sm={1}><FaEdit onClick={() => {
