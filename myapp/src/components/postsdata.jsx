@@ -12,7 +12,7 @@ const Postsdata = (posts) => {
   const nevigate = useNavigate();
 //  const data = posts.posts;
 const [data,setData]=useState();
-console.log(data)
+// console.log(data)
 
 
 // const deleatPost = async (postId) => {
